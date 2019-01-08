@@ -8,4 +8,15 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="DarkTheme" parent="Theme.AppCompat">
+        <item name="android:colorPrimary">@color/darkColorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/darkColorPrimaryDark</item>
+        <item name="android:colorAccent">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:color">@color/white</item>
+        <item name="android:windowBackground">@color/darkColorPrimary</item>
+        <item name="android:navigationBarColor">@color/darkColorPrimaryDark</item>
+        <item name="android:actionBarStyle">@color/darkColorPrimaryDark</item>
+    </style>
+
 </resources>
